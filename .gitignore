@@ -1,0 +1,14 @@
+# environments & secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+# local data & generated artifacts
+data/*.csv
+data/*.db
+data/*.sqlite
+*.db
